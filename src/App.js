@@ -65,7 +65,6 @@ render() {
           handleChange= {this.handleChange}
         />
       <CardList monsters={filterMonsters}/>
-      <CardList monsters={this.state.monsters}/>
     </div>
   );
 }
